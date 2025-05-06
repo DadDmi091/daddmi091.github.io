@@ -39,7 +39,7 @@ tapButton.addEventListener('click', () => {
 // Завершение игры
 function endGame() {
     tapButton.disabled = true;
-    tg.showAlert(`Игра окончена! Ваш счет: ${score}`);
+    tg.showAlert(`Игра закончилась! Ваш счет: ${score}`);
     
     // Отправка данных в бота (пример)
     tg.sendData(JSON.stringify({
